@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC BookStore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="img">
+            <img src="img_Practice3/logoABCbook.png" width="400px">
+        </div>
+
+        <div id="gnav"></div>
+
+        <div id="hright">
+            <ul>
+                <li id="last"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a></li>
+                <li> <a href="Registration_lab7.html">Registration </a> </li>
+                <li> <a href="Problem5_practice2.html"> <i class="fa fa-user-secret" aria-hidden="true"></i>Login</a>
+                </li>
+            </ul>
+        </div>
+        <div id="gnav"></div>
+    </header>
+    <!-- <nav>
+        <div id="hright"><input type="text" placeholder="Enter the Title of the book"> <button type="button
+    ">Find books</button></div>
+        <div id="dn">
+            <ul>
+                <li><a href="Problem5_Hompage.html">Home page</a></li>
+                <li><a href="Problem4_practice1.html">Introduction</a></li>
+                <li id="last"><a href="" id="last">Contact</a></li>
+            </ul>
+        </div>
+    </nav> -->
+    <nav>
+        <div id="hleft">
+            <div class="btn-group">
+                <button type="button" class="btn btn-success rounded-pill">HOME PAGE</button>
+                <button type="button" class="btn btn-success rounded-pill">INTRODUCTION</button>
+                <button type="button" class="btn btn-success rounded-pill">CONTACT</button>
+                <!-- <div class="btn-group">
+                    <button type="button" class="btn btn-success rounded-pill  dropdown-toggle" data-bs-toggle="dropdown" >BOOKS BY
+                        SUBJECT</button>
+                    <div class="dropdown-menu">
+                        <li type="square"> <a href="#">Ngoại Ngữ</a></li>
+                        <li type="square"> <a href="#">Công nghệ thông tin</a></li>
+                        <li type="square"> <a href="#">Luật </a></li>
+                        <li type="square"> <a href="#">Văn học</a></li>
+                        <li type="square"> <a href="#">Khoa học kĩ thuật</a></li>
+                        <li type="square"> <a href="#">Nông nghiệp</a></li>
+                        <li type="square"> <a href="#">Lịch sử, địa lý</a></li>
+                        <li type="square"> <a href="#">Kinh tế</a></li>
+                        <li type="square"> <a href="#">Nghệ thuật sống</a></li>
+
+                    </div>
+                </div> -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success rounded-pill dropdown-toggle"
+                        data-bs-toggle="dropdown">BOOKS BY
+                        SUBJEC</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Ngoại Ngữ</a></li>
+                        <li><a class="dropdown-item" href="#">Công nghệ thông tin</a></li>
+                        <li><a class="dropdown-item" href="#">Luật</a></li>
+                        <li><a class="dropdown-item" href="#">Văn học</a></li>
+                        <li><a class="dropdown-item" href="#">Khoa học kĩ thuật</a></li>
+                        <li><a class="dropdown-item" href="#">>Nông nghiệp</a></li>
+                        <li><a class="dropdown-item" href="#">Lịch sử, địa lý</a></li>
+                        <li><a class="dropdown-item" href="#">Kinh tế</a></li>
+                        <li><a class="dropdown-item" href="#">Nghệ thuật sống</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="btn-group dropend">
+                    <button type="button" class="btn btn-success rounded-pill dropdown-toggle" data-bs-toggle="dropdown">BOOKS BY
+                        SUBJECT</button>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="hright">
+
+            <input type="text" placeholder="Enter the Title of the book">
+
+            <button type="button" class="btn btn-success">Find books</button>
+
+        </div>
+    </nav>
+
+    <div id="body">
+        <article>
+            <aside id="left">
+                <div id="divLeftBorder">
+                    <p>
+                    <h2><b>SÁCH THEO CHỦ ĐỀ</b></h2>
+                    </p>
+                    <ul>
+                        <li type="square"> <a href="#">Ngoại Ngữ</a></li>
+                        <li type="square"> <a href="#">Công nghệ thông tin</a></li>
+                        <li type="square"> <a href="#">Luật </a></li>
+                        <li type="square"> <a href="#">Văn học</a></li>
+                        <li type="square"> <a href="#">Khoa học kĩ thuật</a></li>
+                        <li type="square"> <a href="#">Nông nghiệp</a></li>
+                        <li type="square"> <a href="#">Lịch sử, địa lý</a></li>
+                        <li type="square"> <a href="#">Kinh tế</a></li>
+                        <li type="square"> <a href="#">Nghệ thuật sống</a></li>
+
+                    </ul>
+
+                </div>
+                <br>
+                <div>
+                    <h2>SÁCH THEO NHÀ XUẤT BẢN</h2>
+                    <UL>
+                        <li type="square"> <a href="#">Nhà xuất bản trẻ</a></li>
+                        <li type="square"> <a href="#">NXN Thống Kê</a></li>
+                        <li type="square"> <a href="#">Kim đồng</a></li>
+                        <li type="square"> <a href="#">Đại học quốc gia</a></li>
+                        <li type="square"> <a href="#">Văn hóa nghệ thuật</a></li>
+                        <li type="square"> <a href="#">Văn hóa</a></li>
+                        <li type="square"> <a href="#">Lao động - Xã hội</a></li>
+                        <li type="square"> <a href="#">Khoa học & Kỹ thuật</a></li>
+
+                    </UL>
+                </div>
+            </aside>
+
+
+            <section>
+                <h2>Newbook</h2>
+                <!-- <div class="product-box">
+                    <p class="namebook"> <a href="detailproduct.html">Giáo trình Tin học cơ bản </a></p>
+                    <img class="photo"
+                        src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                        alt="Informatic-Book"
+                        width="10">
+                    <p class="bill">Đơn giá: <span class="price">126,000 VNĐ</span></p>
+                    <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                </div> -->
+
+
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div id="product-box">
+                    <div id="box">
+                        <img src="https://edulife.com.vn/wp-content/uploads/2021/12/tai-lieu-tin-hoc-co-ban-1-1.jpg"
+                            width="150px">
+                        <div>
+                            Đơn giá: <span style="color: red;"> 26,000 VND</span>
+                        </div>
+                        <div>
+                            <button type="button"> <a href="http://127.0.0.1:5500/DBP/detailproduct.html"><i
+                                        class="fa fa-shopping-cart" aria-hidden="true"></i> Đặt mua</a></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <aside id="right">
+                <div>
+                    <header id="bestseller">
+
+                        <h2>BESTSELLER</h2>
+
+                    </header>
+                    <marquee direction="up" scrollamount="1" scrolldelay="" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="img_Practice3/EnglishForTech.jpg" width="150PX" height="150PX">
+                                English For
+                                Tech</a></p>
+                    </marquee>
+                    <marquee direction="up" scrollamount="1" scrolldelay="" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="img_Practice3/BARC.png" width="150PX" height="150PX">
+                                BARC Computer Science</a></p>
+                    </marquee>
+                    <marquee direction="up" scrollamount="1" scrolldelay="" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="img_Practice3/harrypotter.png" width="150PX" height="150PX">
+                                BARC Computer Science</a></p>
+                    </marquee>
+                    <marquee direction="up" scrollamount="1" scrolldelay="" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="img_Practice3/Davinci.png" width="150PX" height="150PX">
+                                HARRY POTTER</a></p>
+                    </marquee>
+                    <marquee direction="up" scrollamount="1" scrolldelay="" onMouseMove="stop()" onMouseOut="start()">
+                        <p><a href="#"><img src="img_Practice3/VisualBasic.png" width="150PX" height="150PX">
+                                VISUAL BASIC</a></p>
+                    </marquee>
+                </div>
+                <br>
+                <div id="Web">
+                    <center>
+                        <P id="Webheader">THE WEBSITE LINKS</P>
+
+                        <p>
+                            <select name="now">
+                                <option value="---Select the link page---" selected="" selected>---Select the link
+                                    page---</option>
+                                <option value="https://lib.eiu.edu.vn/"><button type="button"> <a href="https://lib.eiu.edu.vn/ 
+                        "></a>Eastern International University</button></option>
+                                <option value="https://eiu.edu.vn/ " selected><a href="https://eiu.edu.vn/ ">-Eastern
+                                        International University</a></option>
+
+
+                            </select>
+                        </p>
+                    </center>
+                </div>
+                <br>
+                <div id="Access">
+                    <center>
+                        <h3 id="AccessHeader"><strong>ACCESS STATISTICS</strong></h3>
+                        <P><strong>Total Access: 500</strong></P>
+                        <p><strong>Online: 3</strong></p>
+                    </center>
+                </div>
+            </aside>
+        </article>
+        <footer>
+            <div id="footer">
+                <p><i class="fa fa-copyright" aria-hidden="true"></i>2016-ABC Bookstror. AllRights Reserved</p>
+                <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+                <p>Email: abcbookstore@gmail.com</p>
+
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+
+</html>
